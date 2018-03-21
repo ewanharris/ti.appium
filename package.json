@@ -1,0 +1,43 @@
+{
+  "name": "@awam/ti.appium",
+  "version": "0.1.0",
+  "description": "Plugin for using appium as part of the Titanium build process",
+  "author": "Ewan Harris <ewanharris93@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "appium",
+    "titanium",
+    "automation"
+  ],
+  "bin": {
+    "tiappium-init-hook": "./bin/tiappium-init-hook.js",
+    "tiappium-init-project": "./bin/tiappium-init-project.js"
+  },
+  "dependencies": {
+    "appium": "^1.7.2",
+    "debug": "^3.1.0",
+    "fs-extra": "^5.0.0",
+    "mocha": "^5.0.4",
+    "node-fetch": "^2.1.1",
+    "semver": "^5.5.0",
+    "wd": "^1.6.1",
+    "webdriverio": "^4.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-axway": "^2.0.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "homepage": "https://github.com/ewanharris/ti.appium",
+  "bugs": "https://github.com/ewanharris/ti.appium/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ewanharris/tiappium.git"
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  }
+}
