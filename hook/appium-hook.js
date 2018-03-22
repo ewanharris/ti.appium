@@ -72,7 +72,7 @@ exports.init = function (logger, config, cli) {
 				// TODO: testConfig.driver === 'custom' ?
 				logger.debug(`Using driver type ${testConfig.driver}`);
 				const driver = new Driver(testConfig);
-				global.driver = await driver.init({ port: 4723, host: 'localhost', desiredCapabilities: testConfig.appium });
+				await driver.init({ port: 4723, host: 'localhost', desiredCapabilities: testConfig.appium });
 				const commands = getCommands(projectDir);
 				for (const command of commands) {
 					const com = require(command); // eslint-disable-line security/detect-non-literal-require

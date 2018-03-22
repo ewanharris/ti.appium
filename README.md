@@ -28,7 +28,7 @@ To get started:
 ### Writing tests
 
 - You can choose from two webdriver implementations [wd](http://admc.io/wd/), and [webdriverio](http://webdriver.io/). You can specify which one to use in the main config file at `e2e/config.json`,  by setting the `driver` property to either `wd` or `webdriverio`
-- There are currently two examples for the (standard Titanium template)[] and [KitchenSink-v2]()
+- There are currently two examples for the (standard Titanium template)[https://github.com/ewanharris/appium-test-repo] and [KitchenSink-v2]()
 
 
 ### Running the tests
@@ -41,8 +41,8 @@ To get started:
 
 [Appium site](http://appium.io/) - Look here for getting started tips, you do not need to install appium itself as it is contained in this package.
 [appium-doctor](https://www.npmjs.com/package/appium-doctor) - Check if you're actually set up for doing this
- [wd](http://admc.io/wd/) - One of the possible binding choices
- [webdriverio](http://webdriver.io/) - The other binding choice
+[wd](http://admc.io/wd/) - One of the possible binding choices
+[webdriverio](http://webdriver.io/) - The other binding choice
 
  ## Possible plans
 
