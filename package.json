@@ -1,6 +1,6 @@
 {
   "name": "@awam/ti.appium",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Plugin for using appium as part of the Titanium build process",
   "author": "Ewan Harris <ewanharris93@gmail.com>",
   "license": "MIT",
